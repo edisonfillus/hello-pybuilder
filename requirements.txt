@@ -1,0 +1,3 @@
+#All the dependencies for build and runtime are defined on build.py, but can be set on this file
+#numpy==1.9.2
+#requests==2.7.0

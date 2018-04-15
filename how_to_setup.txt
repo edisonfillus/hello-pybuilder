@@ -1,0 +1,32 @@
+apt-get install python3
+apt-get install python3-venv
+apt-get install python3-pip
+
+
+# Create a Virtual Environment (Execute on project root folder)
+python3 -m venv venv
+
+# Activate Virtual Environment
+source venv/bin/activate
+
+# Install pybuilder pybuilder
+pip3 install pybuilder
+
+# Create a file build.py (It's already created on hello-pybuilder)
+pyb --start-project
+
+# Create a file build.py (It's already created on hello-
+pyb install_dependencies
+
+# Execute Build
+pyb
+
+# Include app sources em src/main/python
+# Include app unit tests em src/test/python
+
+# Create a requirements.txt with dependencies, ex:
+numpy==1.9.2
+requests==2.7.0
+
+# Instalar all packages
+pip install -r requirements.txt

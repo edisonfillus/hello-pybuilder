@@ -1,0 +1,2 @@
+#All the dependencies just for build are defined on build.py, but can be set on this file
+#mockito==0.0.0
