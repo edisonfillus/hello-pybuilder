@@ -1,0 +1,9 @@
+language: python
+python:
+  - "3.6"
+
+install:
+  - pip install pybuilder
+
+# command to run build and tests
+script: pyb
