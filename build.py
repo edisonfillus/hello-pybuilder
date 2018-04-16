@@ -8,8 +8,6 @@ use_plugin("python.install_dependencies") #pyb install_dependencies
 #QA Plugins
 use_plugin("python.unittest")
 use_plugin("python.coverage")
-use_plugin("python.sonarqube")
-
 
 #Package Plugins
 use_plugin("python.distutils") #Create a setup.py

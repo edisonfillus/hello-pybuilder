@@ -2,8 +2,13 @@ language: python
 python:
   - "3.6"
 
+addons:
+  sonarcloud:
+    organization: "edisonfillus-github"
+
 install:
   - pip install pybuilder
 
 # command to run build and tests
-script: pyb
+script:
+  - pyb
